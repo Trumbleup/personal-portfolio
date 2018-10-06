@@ -1,2 +1,2 @@
 # personal-portfolio
-A personal portfolio for web-developer Stephen-Trumble
+A personal portfolio for web-developer Stephen Danny Trumble
