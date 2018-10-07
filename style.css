@@ -32,3 +32,39 @@ body {
   color: #008080;
   text-decoration: none;
 }
+
+.work {
+	padding: 45px;
+}
+
+.project {
+	text-decoration: none;
+	color: black;
+	border:2px solid black;
+	display: inline-block;
+	width: 280px;
+	height: 220px;
+	margin: 40px 100px;
+}
+
+.project-title {
+	font-weight: bold;
+}
+
+#profile-link {
+	background-color: teal;
+	height: 20vh;
+}
+
+.social-link {
+	border: 2px solid green;
+	margin-top: 20px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: white;
+	border-radius: 100%;
+	line-height: 100px;
+	text-decoration: none;
+
+}
