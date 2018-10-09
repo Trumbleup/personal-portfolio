@@ -1,4 +1,5 @@
 body {
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 
@@ -15,7 +16,7 @@ body {
 
 
 #navbar ul {
-	text-align: right;
+  text-align: right;
   position: fixed;
   width: 100%;
   background-color: #e0ebe8;
@@ -23,8 +24,8 @@ body {
 
 #navbar ul li {
 	display: inline-block;
+	margin: 50px;
 	margin-top: 25px;
-	margin-right: 20px;
 	margin-bottom: 15px;
 }
 
@@ -42,6 +43,7 @@ body {
 	color: black;
 	border:2px solid black;
 	display: inline-block;
+	overflow: hidden;
 	width: 280px;
 	height: 220px;
 	margin: 40px 100px;
@@ -51,7 +53,7 @@ body {
 	font-weight: bold;
 }
 
-#profile-link {
+#profile-links {
 	background-color: teal;
 	height: 20vh;
 }
@@ -65,6 +67,19 @@ body {
 	background: white;
 	border-radius: 100%;
 	line-height: 100px;
+	color: #008080;
 	text-decoration: none;
+	font-weight: bold;
+}
 
+@media only screen and (max-width: 600px) {
+	#navbar ul {
+		text-align: center;
+	}
+	#navbar ul li {
+		margin: 20px;
+	}
+	.project {
+		margin: 40px 0;
+	}
 }
